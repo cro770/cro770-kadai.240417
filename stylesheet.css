@@ -20,7 +20,6 @@ li {
   list-style: none;
   margin-right: 14px;
 }
-
 .header-menu{
 	display: flex;
 }
@@ -118,7 +117,7 @@ p {
 }
 .company-list {
   display: flex;
-  padding: 10%; 
+  padding: 8%; 
   font-size: 13px; 
 }
 .com-list {
@@ -145,11 +144,9 @@ p {
   justify-content: center;
   align-items: center;
 }
-
 span {
   color: rgba(0, 51, 255, 0.771);
 }
-
 
 @media (max-width: 760px){
   
@@ -166,17 +163,19 @@ span {
     flex-direction: column;
     padding: 3% 0% 10% 0%;
   }
-  .story-box{
+  .story-box {
     padding-top: 10%;
+  } 
+  .copyright {
+    padding-left: 6%;
+    padding-right: 6%;
   }
-  
 }
 @media (max-width: 1000px){
   .header-menu {
     display: flex;
     flex-direction: column;
     width: 100%;
-
   }
   #switch ~ label {
 		padding: 12px 12px;
@@ -261,7 +260,6 @@ span {
   .arrow {
     position: relative;
     display: inline-block;
-      
   }
   .arrow::before {
     content: '';
@@ -274,5 +272,4 @@ span {
     top:15px;
     transform: rotate(45deg);
   }
-  
 }
